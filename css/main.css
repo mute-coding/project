@@ -253,7 +253,70 @@ footer .footer-img img{
     height: 7cm;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 }
-
+/* 表單 */
+.entryTable{
+    width: 100%;
+    margin-bottom: 30px;
+    border: 2px solid #f6bb97;
+    border-collapse: collapse;
+}
+.entryTable th,
+.entryTable td{
+    padding: 10px 20px;
+    border: 1px solid  #f6bb97;
+}
+.entryTable th {
+    width: 10em;
+    background-color: #ffeeee;
+    text-align: left;
+}
+.entryTable caption {
+    margin-bottom: 10px;
+}
+/* 輸入表單設定 */
+.entryTable input[type="text"],
+.entryTable input[type="email"],
+.entryTable input[type="tel"],
+.entryTable textarea {
+    width:100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+.entryTable input[type="text"]:focus,
+.entryTable input[type="email"]:focus,
+.entryTable input[type="tel"]:focus,
+.entryTable textarea:focus {
+    background-color: #ffffee;
+    outline: none;
+    border-left: 5px solid #ffa700;
+}
+/* 按鈕 */
+.entryBtns {
+    text-align: center;
+}
+.entryBtns input {
+    width: 200px;
+    margin: 0 10px;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #f6bb9e;
+    border-radius: 10px;
+    font-size: 1em;
+    -webkit-appearance: none;
+}
+/*送出按鈕*/
+.entryBtns input[type="submit"]{
+    background: #fadccc;
+}
+/*滑到按鈕時*/
+.entryBtns input:hover {
+    opacity: 0.7;
+}
+#option{
+    width: 200px;
+}
 
 
  

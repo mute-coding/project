@@ -1,0 +1,53 @@
+<!-- 購票系統 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/e45ac9a14a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/icon.png">
+    <title>coffee LAA</title>
+</head>
+<body>
+  <form id="購票系統" action="#" method="post">
+    <table class="entryTable">
+        <caption>購票系統</caption>
+        <tr>
+            <th>購票說明</th>
+            <td><input type="text" name="instruction"  required ></td>
+        </tr>
+        <tr>
+            <th>購票場次</th>
+            <td> 
+              <select name="session" required></option>
+                <option value="" selected>請選擇</option>
+                <option value="0">第一場</option>
+                <option value="1">第二場</option>
+               </select>
+            </td>
+        </tr>
+        <tr>
+            <th>購買票數</th>
+            <td><input type="text" name="votes"  value></td>
+        </tr>
+        <tr>
+            <th>地址</th>
+            <td><input type="text" name="address"  value></td>
+        </tr>
+        <tr>
+            <th>付款方式</th>
+            <td>
+                <select name="pay" required></option>
+                    <option value="" selected>請選擇</option>
+                    <option value="0">信用卡</option>
+                    <option value="1">超商支付</option>
+                   </select>
+        </tr>
+    </table>
+    <div class="entryBtns">
+        <input type="submit" value="送出">
+    </div>
+</form> 
+</body>
+</html>

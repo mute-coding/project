@@ -1,0 +1,43 @@
+<!-- 會員註冊 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/e45ac9a14a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/icon.png">
+    <title>coffee LAA</title>
+</head>
+<body>
+  <form id="會員註冊" action="#" method="post">
+    <table class="entryTable">
+        <caption>會員註冊</caption>
+        <tr>
+            <th>帳號*</th>
+            <td><input type="text" name="account" placeholder="6 ~ 12 英數字" required value pattern="[0-9a-zA-Z]{6,12}"></td>
+        </tr>
+        <tr>
+            <th>密碼*</th>
+            <td><input type="text" name="password" required placeholder="8 ~ 16英數字" pattern="[0-9a-zA-Z]{8,16}"value></td>
+        </tr>
+        <tr>
+            <th>信箱*</th>
+            <td><input type="email" name="email" required placeholder="sample@gmail.com" value></td>
+        </tr>
+        <tr>
+            <th>姓名*</th>
+            <td><input type="text" name="name" required placeholder="王大明" value></td>
+        </tr>
+        <tr>
+            <th>電話*</th>
+            <td><input type="tel" name="tel" required placeholder="09XXXXXXXX" pattern="[0-9]{8,10}" value></td>
+        </tr>
+    </table>
+    <p><strong><span class="reqire">*</span>為必填項目。</strong></p>
+    <div class="entryBtns">
+        <input type="submit" value="送出">
+    </div>
+</form> 
+</body>
+</html>

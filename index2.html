@@ -1,0 +1,46 @@
+<!-- 表單申請 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/e45ac9a14a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./images/icon.png">
+    <title>coffee LAA</title>
+</head>
+<body>
+  <form id="表單申請" action="#" method="post">
+    <table class="entryTable">
+        <caption>表單申請</caption>
+        <tr>
+            <th>活動名稱</th>
+            <td><input type="text" name="eventName"  required value></td>
+        </tr>
+        <tr>
+            <th>申請人姓名</th>
+            <td><input type="text" name="name" required  value></td>
+        </tr>
+        <tr>
+            <th>活動資訊</th>
+            <td><input type="text" name="info" required  value></td>
+        </tr>
+        <tr>
+            <th>連絡電話</th>
+            <td><input type="tel" name="tel" required  pattern="[0-9]{8,10}" value></td>
+        </tr>
+        <tr>
+            <th>地址</th>
+            <td><input type="text" name="add" required pattern="[0-9]{8,10}" value></td>
+        </tr>
+        <tr>
+            <th>相關圖片</th>
+            <td><input type="file" name="photo"></td>
+        </tr>
+    </table>
+    <div class="entryBtns">
+        <input type="submit" value="送出">
+    </div>
+</form> 
+</body>
+</html>
