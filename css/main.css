@@ -310,6 +310,10 @@ footer .footer-img img{
 .entryBtns input[type="submit"]{
     background: #fadccc;
 }
+/*清除重填*/
+.entryBtns input[type="reset"]{
+    background: #fadccc;
+}
 /*滑到按鈕時*/
 .entryBtns input:hover {
     opacity: 0.7;
